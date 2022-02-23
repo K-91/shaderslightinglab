@@ -34,7 +34,7 @@ install(TARGETS "${PROJECT_NAME}" DESTINATION bin) #${CMAKE_INSTALL_PREFIX}/bin
 install(FILES "TeapotAD.cpp" DESTINATION src)
 
 
-target_link_libraries(TeapotAD PRIVATE glfw3 opengl32)
+target_link_libraries(${PROJECT_NAME} PRIVATE glfw3 opengl32)
 
 
 
