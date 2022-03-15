@@ -95,7 +95,6 @@ void SceneDiffuse::render(QuatCamera camera){
 	model = mat4(1.0f);
 	//Set the matrices for the plane although it is only the model matrix that changes so could be made more efficient
 	setMatrices(camera);
-
 	prog.setUniform("EnableSpecular", enableSpecular());
 	prog.setUniform("Blinn", blinn());
 	//Set the plane's material properties in the shader and render

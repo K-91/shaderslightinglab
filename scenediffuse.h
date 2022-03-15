@@ -48,6 +48,7 @@ public:
 	void enableSpecular(bool x){_enableSpecular = x;};
 
 
+
     SceneDiffuse(); //Constructor
 
 	void setLightParams(QuatCamera camera); //Setup the lighting
